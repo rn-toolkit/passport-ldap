@@ -1,21 +1,11 @@
 {
-  "name": "passport-ldapauth",
+  "name": "passport-ldap",
   "description": "LDAP authentication strategy for Passport",
-  "author": "Vesa Poikajärvi <vesa.poikajarvi@iki.fi>",
-  "contributors": [
-    "Simon Gaeremynck <gaeremyncks@gmail.com>",
-    "Michael Bailly <mbailly@linagora.com>",
-    "Jason Gelinas <jason.gelinas@citi.com>",
-    "arumi <arumi@wge7033.secheron.net>",
-    "Anthony Hernandez <anthony.hernandez@clownphobia.com>",
-    "Chris Harwood <harwood@teralogics.com>",
-    "David Dolcimascolo <david.dolcimascolo@stordata.fr>"
-  ],
+  "author": "",
   "keywords": [
     "ldap",
     "passport",
-    "authentication",
-    "ldapauth"
+    "authentication"
   ],
   "version": "3.0.1",
   "license": "MIT",
@@ -26,13 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vesse/passport-ldapauth.git"
+    "url": "https://github.com/rn-toolkit/passport-ldap.git"
   },
   "bugs": {
-    "url": "https://github.com/vesse/passport-ldapauth/issues"
+    "url": "https://github.com/rn-toolkit/passport-ldap/issues"
   },
   "dependencies": {
     "ldapauth-fork": "^5.0.1",
+    "ldapjs": "^3.0.7",
     "passport-strategy": "^1.0.0"
   },
   "devDependencies": {
@@ -47,7 +38,6 @@
     "chai": "^4.2.0",
     "eslint": "^8.18.0",
     "express": "^4.17.1",
-    "ldapjs": "^2.2.1",
     "merge": "^2.1.0",
     "mocha": "^10.0.0",
     "passport": "^0.6.0",
