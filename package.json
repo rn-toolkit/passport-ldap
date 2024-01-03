@@ -1,5 +1,5 @@
 {
-  "name": "passport-ldap",
+  "name": "@rn-toolkit/passport-ldap",
   "description": "LDAP authentication strategy for Passport",
   "author": "",
   "keywords": [
