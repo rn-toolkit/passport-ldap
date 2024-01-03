@@ -204,13 +204,6 @@
   resolved "https://registry.yarnpkg.com/@types/http-errors/-/http-errors-2.0.4.tgz#7eb47726c391b7345a6ec35ad7f4de469cf5ba4f"
   integrity sha512-D0CFMMtydbJAegzOyHjtiKPLlvnm3iTZyZRSZoLq2mRhDdmLfIWOCYPfQJ4cu2erKghU++QvjcUjp/5h7hESpA==
 
-"@types/ldapjs@^2.2.2":
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/@types/ldapjs/-/ldapjs-2.2.5.tgz#b6623bc5ad4fab85ef3cfa586db691d016a3598c"
-  integrity sha512-Lv/nD6QDCmcT+V1vaTRnEKE8UgOilVv5pHcQuzkU1LcRe4mbHHuUo/KHi0LKrpdHhQY8FJzryF38fcVdeUIrzg==
-  dependencies:
-    "@types/node" "*"
-
 "@types/mime@*":
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-3.0.4.tgz#2198ac274de6017b44d941e00261d5bc6a0e0a45"
@@ -272,7 +265,7 @@
   resolved "https://registry.yarnpkg.com/@ungap/structured-clone/-/structured-clone-1.2.0.tgz#756641adb587851b5ccb3e095daf27ae581c8406"
   integrity sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==
 
-abstract-logging@^2.0.0, abstract-logging@^2.0.1:
+abstract-logging@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/abstract-logging/-/abstract-logging-2.0.1.tgz#6b0c371df212db7129b57d2e7fcf282b8bf1c839"
   integrity sha512-2BjRTZxTPvheOvGbBslFSYOUkr+SjPtOnrLP33f+VIWLzezQpZcqVg7ja3L4dBXmzzgwT+a029jRx5PCi3JuiA==
@@ -345,13 +338,6 @@ asap@^2.0.0:
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
   integrity sha512-BSHWgDSAiKs50o2Re8ppvp3seVHXSRM44cdSsT9FfNEUUZLOGWVCsiWaRPWM1Znn+mqZ1OfVZ3z3DWEzSp7hRA==
 
-asn1@^0.2.4:
-  version "0.2.6"
-  resolved "https://registry.yarnpkg.com/asn1/-/asn1-0.2.6.tgz#0d3a7bb6e64e02a90c0303b31f292868ea09a08d"
-  integrity sha512-ix/FxPn0MDjeyJ7i/yoHGFt/EX6LyNbxSEhPPXODPL+KB0VPk86UYfL0lMdy+KCnv+fmvIzySwaK5COwqVbWTQ==
-  dependencies:
-    safer-buffer "~2.1.0"
-
 assert-plus@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/assert-plus/-/assert-plus-1.0.0.tgz#f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525"
@@ -385,11 +371,6 @@ basic-auth@^2.0.1:
   integrity sha512-NF+epuEdnUYVlGuhaxbbq+dvJttwLnGY+YixlXlME5KpQ5W3CnXA5cVTneY3SPbPDRkcjMbifrwmFYcClgOZeg==
   dependencies:
     safe-buffer "5.1.2"
-
-bcryptjs@^2.4.0:
-  version "2.4.3"
-  resolved "https://registry.yarnpkg.com/bcryptjs/-/bcryptjs-2.4.3.tgz#9ab5627b93e60621ff7cdac5da9733027df1d0cb"
-  integrity sha512-V/Hy/X9Vt7f3BbPJEi8BdVFMByHi+jNXrYkW3huaybV/kQ0KJg0Y6PkEMbn+zeT+i+SiKZ/HMqJGIIt4LZDqNQ==
 
 binary-extensions@^2.0.0:
   version "2.2.0"
@@ -1255,37 +1236,6 @@ keyv@^4.5.3:
   dependencies:
     json-buffer "3.0.1"
 
-ldap-filter@^0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/ldap-filter/-/ldap-filter-0.3.3.tgz#2b14c68a2a9d4104dbdbc910a1ca85fd189e9797"
-  integrity sha512-/tFkx5WIn4HuO+6w9lsfxq4FN3O+fDZeO9Mek8dCD8rTUpqzRa766BOBO7BcGkn3X86m5+cBm1/2S/Shzz7gMg==
-  dependencies:
-    assert-plus "^1.0.0"
-
-ldapauth-fork@^5.0.1:
-  version "5.0.5"
-  resolved "https://registry.yarnpkg.com/ldapauth-fork/-/ldapauth-fork-5.0.5.tgz#984f98ffda8622a4dcf150533e2d3282372c2cb1"
-  integrity sha512-LWUk76+V4AOZbny/3HIPQtGPWZyA3SW2tRhsWIBi9imP22WJktKLHV1ofd8Jo/wY7Ve6vAT7FCI5mEn3blZTjw==
-  dependencies:
-    "@types/ldapjs" "^2.2.2"
-    bcryptjs "^2.4.0"
-    ldapjs "^2.2.1"
-    lru-cache "^7.10.1"
-
-ldapjs@^2.2.1:
-  version "2.3.3"
-  resolved "https://registry.yarnpkg.com/ldapjs/-/ldapjs-2.3.3.tgz#06c317d3cbb5ac42fbba741e1a8b130ffcf997ab"
-  integrity sha512-75QiiLJV/PQqtpH+HGls44dXweviFwQ6SiIK27EqzKQ5jU/7UFrl2E5nLdQ3IYRBzJ/AVFJI66u0MZ0uofKYwg==
-  dependencies:
-    abstract-logging "^2.0.0"
-    asn1 "^0.2.4"
-    assert-plus "^1.0.0"
-    backoff "^2.5.0"
-    ldap-filter "^0.3.3"
-    once "^1.4.0"
-    vasync "^2.2.0"
-    verror "^1.8.1"
-
 ldapjs@^3.0.7:
   version "3.0.7"
   resolved "https://registry.yarnpkg.com/ldapjs/-/ldapjs-3.0.7.tgz#c69fe2965bc50a747bce834f8183f1f77c3be75d"
@@ -1347,11 +1297,6 @@ lru-cache@^6.0.0:
   integrity sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==
   dependencies:
     yallist "^4.0.0"
-
-lru-cache@^7.10.1:
-  version "7.18.3"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.18.3.tgz#f793896e0fd0e954a59dfdd82f0773808df6aa89"
-  integrity sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -1755,7 +1700,7 @@ safe-json-stringify@~1:
   resolved "https://registry.yarnpkg.com/safe-json-stringify/-/safe-json-stringify-1.2.0.tgz#356e44bc98f1f93ce45df14bcd7c01cda86e0afd"
   integrity sha512-gH8eh2nZudPQO6TytOvbxnuhYBOvDBBLW52tz5q6X58lJcd/tkmqFR+5Z9adS8aJtURSXWThWy/xJtJwixErvg==
 
-"safer-buffer@>= 2.1.2 < 3", safer-buffer@~2.1.0:
+"safer-buffer@>= 2.1.2 < 3":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
@@ -1977,7 +1922,7 @@ vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
 
-vasync@^2.2.0, vasync@^2.2.1:
+vasync@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/vasync/-/vasync-2.2.1.tgz#d881379ff3685e4affa8e775cf0fd369262a201b"
   integrity sha512-Hq72JaTpcTFdWiNA4Y22Amej2GH3BFmBaKPPlDZ4/oC8HNn2ISHLkFrJU4Ds8R3jcUi7oo5Y9jcMHKjES+N9wQ==
@@ -1993,7 +1938,7 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-verror@^1.10.1, verror@^1.8.1:
+verror@^1.10.1:
   version "1.10.1"
   resolved "https://registry.yarnpkg.com/verror/-/verror-1.10.1.tgz#4bf09eeccf4563b109ed4b3d458380c972b0cdeb"
   integrity sha512-veufcmxri4e3XSrT0xwfUR7kguIkaxBeosDg00yDWhk49wdwkSUrvvsm7nc75e1PUyvIeZj6nS8VQRYz2/S4Xg==

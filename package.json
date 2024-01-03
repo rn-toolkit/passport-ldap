@@ -22,7 +22,6 @@
     "url": "https://github.com/rn-toolkit/passport-ldap/issues"
   },
   "dependencies": {
-    "ldapauth-fork": "^5.0.1",
     "ldapjs": "^3.0.7",
     "passport-strategy": "^1.0.0"
   },
